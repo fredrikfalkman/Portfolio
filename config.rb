@@ -1,3 +1,10 @@
+require 'extensions/build_cleaner'
+
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.deploy_method = :git
+end
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -36,9 +43,6 @@ end
 
 # Build-specific configuration
 configure :build do
-  # Minify CSS on build
-  # activate :minify_css
-
-  # Minify Javascript on build
-  # activate :minify_javascript
+  activate :relative_assets
+  activate :build_cleaner
 end

@@ -1,8 +1,8 @@
 require './source/index.html.haml'
 
-describe projects do
-  
-end
+# describe projects do
+#
+# end
 
 it 'displays project list' do
     expect(page).to have_css '.projects'
