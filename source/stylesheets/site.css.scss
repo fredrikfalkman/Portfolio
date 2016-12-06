@@ -3,44 +3,53 @@
 
 body {
   margin: 2em 2em;
-  background: #ECC561;
+  background: #9c9c9c;
   text-align: left;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
 }
 
+img {
+  margin: 1em 0em 0em;
+  box-shadow: 5px 5px 10px #605c5c
+  // border-style: solid;
+  // border-color: white;
+  // border-width: 5;
 
-
-h1 {
-  color: rgba(0,0,0,0.5);
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.8em;
-  font-weight: 400;
-  margin: 0;
 }
-
-.doc {
-  margin: 3em 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.1em;
-  font-weight: 300;
-
-  a {
-    border: 1px solid white;
-    border-radius: 3px;
-    padding: 0.75em 0.7em;
-    color: white;
-    text-decoration: none;
-    transition: color 0.1s linear;
-    &:hover {
-      background: rgba(0,0,0,0.2);
-      color: white;
-      transition: all 0.15s linear;
-    }
-  }
-}
-
-.welcome {
-  -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s;
-}
+//
+//
+//
+// h1 {
+//   color: rgba(0,0,0,0.5);
+//   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+//   font-size: 1.8em;
+//   font-weight: 400;
+//   margin: 0;
+// }
+//
+// .doc {
+//   margin: 3em 0;
+//   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+//   font-size: 1.1em;
+//   font-weight: 300;
+//
+//   a {
+//     border: 1px solid white;
+//     border-radius: 3px;
+//     padding: 0.75em 0.7em;
+//     color: white;
+//     text-decoration: none;
+//     transition: color 0.1s linear;
+//     &:hover {
+//       background: rgba(0,0,0,0.2);
+//       color: white;
+//       transition: all 0.15s linear;
+//     }
+//   }
+// }
+//
+// .welcome {
+//   -webkit-animation-name: welcome;
+//   -webkit-animation-duration: .9s;
+// }

@@ -1,4 +1,10 @@
-.projects
-  - data.projects.each do |project|
-    %h4= project[:name]
-    %p= project[:description]
+.container-fluid
+  .row
+    .col-sm-2
+      .projects
+        - data.projects.each do |project|
+          %a= project[:link]
+          %br
+          %img= project[:img_link]
+          %p= project[:description]
+  

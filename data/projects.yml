@@ -1,6 +1,9 @@
-- name: Test 1
+- name: ffd.se
   description: This describes Test 1 in all it's glory.
+  img_link: <img src="http://api.screenshotmachine.com/?key=d3e03b&size=E&format=PNG&cacheLimit=0&url=www.ffd.se", style="width:150px;"
+  link: <a href="http://ffd.se">ffd.se
 
-- name: Test 2
+- name: surtsey.org
   description: This describes Test 2, incomplete as it may be.
-  
+  img_link: <img src="http://api.screenshotmachine.com/?key=d3e03b&size=E&format=PNG&url=www.surtsey.org", style="width:150px;"
+  link: <a href="http://surtsey.org">surtsey.org
