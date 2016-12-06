@@ -1,32 +1,21 @@
 %html{lang: "en"}
 
-%head
-  %meta{content: "width=device-width, initial-scale=1", name: "viewport"}
-
-  -# %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-  -# %meta{content: "IE=edge", "http-equiv" => "X-UA-Compatible"}/
-  -# %meta{content: "utf-8"}/
-  -# %meta{content: "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no", content: "viewport"}/
-  -# / Use title if it's in the page YAML frontmatter
-  %title= current_page.data.title || "Middleman"
-  %link{href: "//fonts.googleapis.com/css?family=Lato:300,400", rel: "stylesheet", type: "text/css"}/
-  = stylesheet_link_tag :site
-  = stylesheet_link_tag :bootstrap
-  = javascript_include_tag :all
-
-%body{class: page_classes}
-  .container-fluid
-    .row
-      .col-sm-2
-        %p Test
-      .col-sm-2
-        %p Test
-      .col-sm-2
-        %p Test
-
-%script{src: "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"}
-%script{src: "js/bootstrap.min.js"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %title Foundation for Sites
+    %link{:href => "stylesheets/foundation.css", :rel => "stylesheet"}/
 
 
-  = yield
-  -# = partial 'partials/footer'
+
+    = stylesheet_link_tag :foundation
+    = stylesheet_link_tag :site
+    = javascript_include_tag :all
+
+    %script{src: "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"}
+
+
+  %body
+    = yield
+    -# = partial 'partials/footer'
