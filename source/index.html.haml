@@ -1,8 +1,7 @@
 .row
   .projects
     - data.projects.each do |project|
-      .large-2.medium-6.columns.callout
-        %a= project[:link]
-        %br
+      .small-12.medium-6.large-3.columns.ff
+        %h4= project[:link]
         %img= project[:img_link]
         %p= project[:description]

@@ -3,16 +3,27 @@
 
 body {
   margin: 2em 2em;
-  background: #9c9c9c;
+  background: #f0f0f0;
   text-align: left;
   font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
 }
 
 img {
-  margin: 1em 0em 0em;
+  margin: 1em 0em 1.5em;
   box-shadow: 5px 5px 10px #605c5c
 }
+
+p {font-size:large}
+
+
+.ff {
+  border-style:none;
+  background-color: #ffffff;
+  padding: 0.5em 1em;
+  margin:0.5em;
+}
+
 //
 //
 //
