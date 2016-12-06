@@ -2,17 +2,14 @@
 @import "normalize";
 
 body {
-  margin: 3em 3em;
+  margin: 2em 2em;
   background: #ECC561;
   text-align: left;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
 }
 
-.logo img {
-  height: 18.75em;
-  margin-top: 6em;
-}
+
 
 h1 {
   color: rgba(0,0,0,0.5);
@@ -46,23 +43,4 @@ h1 {
 .welcome {
   -webkit-animation-name: welcome;
   -webkit-animation-duration: .9s;
-}
-
-@-webkit-keyframes welcome {
-  from {
-    -webkit-transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-   -webkit-transform: scale(0);
-   opacity: 0;
-  }
-  82.5% {
-    -webkit-transform: scale(1.03);
-    -webkit-animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  to {
-    -webkit-transform: scale(1);
-  }
 }
