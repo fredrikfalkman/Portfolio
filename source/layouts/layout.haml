@@ -7,15 +7,19 @@
     %title Foundation for Sites
     %link{:href => "stylesheets/foundation.css", :rel => "stylesheet"}/
 
-
-
     = stylesheet_link_tag :foundation
     = stylesheet_link_tag :site
     = javascript_include_tag :all
 
-    %script{src: "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"}
-
-
   %body
+
+
+    = partial 'partials/top_bar'
     = yield
     -# = partial 'partials/footer'
+
+    %script{src:"/javascripts/vendor/jquery.js"}
+    %script{src:"/javascripts/vendor/foundation.min.js"}
+    -# %script{$(document).foundation()}
+    :javascript
+      $(document).foundation();
