@@ -1,0 +1,8 @@
+.row
+  .projects
+    - data.projects.each do |project|
+      .small-12.medium-6.large-4.columns
+        .boxes
+          %h4= project[:link]
+          %img= project[:img_link]
+          %p= project[:description]

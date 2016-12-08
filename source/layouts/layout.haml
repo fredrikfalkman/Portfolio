@@ -3,23 +3,24 @@
   %head
     %meta{:charset => "utf-8"}/
     %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
-    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
-    %title Foundation for Sites
-    %link{:href => "stylesheets/foundation.css", :rel => "stylesheet"}/
 
-    = stylesheet_link_tag :foundation
-    = stylesheet_link_tag :site
-    = javascript_include_tag :all
+    %title Portfolio - Fredrik Falkman
+
+    = stylesheet_link_tag :foundation, :site
+
+
+  %link{:href => "https://fonts.googleapis.com/css?family=Karla", :rel => "stylesheet"}
+
 
   %body
-
-
-    = partial 'partials/top_bar'
+    = partial 'partials/header'
+    -# = partial 'partials/top_bar'
     = yield
-    -# = partial 'partials/footer'
+
+
 
     %script{src:"/javascripts/vendor/jquery.js"}
+    = javascript_include_tag :all
     %script{src:"/javascripts/vendor/foundation.min.js"}
-    -# %script{$(document).foundation()}
     :javascript
       $(document).foundation();
