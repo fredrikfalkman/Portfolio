@@ -1,15 +1,15 @@
 - name: ffd.se
-  description: This describes Test 1 in all it's glory.
+  description: This is my company web-site. The company is mostly passive since I'm working elsewhere. Built with Adobe Muse + some legacy parts from iWeb and Tumblr.
   img_link: <img src="https://api.browshot.com/api/v1/simple?url=http://ffd.se/&instance_id=12&key=5s7raKNufxEOH2tJz3A1SmHuxigfX"
   link: <a href="http://ffd.se">ffd.se
 
 - name: surtsey.org
-  description: This describes Test 2, incomplete as it may be.
+  description: The Surtsey site is built and maintained by Erik Bernskiöld, but I do the design and concept development.
   img_link: <img src="https://api.browshot.com/api/v1/simple?url=http://surtsey.org/&instance_id=12&key=5s7raKNufxEOH2tJz3A1SmHuxigfX"
   link: <a href="http://surtsey.org">surtsey.org
 
 - name: first-rescue.org
-  description: This describes Test 3, incomplete as it may be.
+  description: The FIRST site was built with Adobe Muse and some Tumbler integrations.  
   img_link: <img src="https://api.browshot.com/api/v1/simple?url=http://first-rescue.org/&instance_id=12&key=5s7raKNufxEOH2tJz3A1SmHuxigfX"
   link: <a href="http://first-rescue.org">first-rescue.org
 
