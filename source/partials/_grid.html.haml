@@ -1,8 +1,10 @@
-.row
+.expanded.row
   .projects
     - data.projects.each do |project|
       .small-12.medium-6.large-4.columns
-        .boxes
+        %a
           %h4= project[:link]
+        .grid_img
           %img= project[:img_link]
-          %p= project[:description]
+        %p= project[:description]
+        %br

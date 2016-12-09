@@ -6001,7 +6001,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     * @option
     * @example 5000
     */
-    timerDelay: 5000,
+    timerDelay: 10000,
     /**
     * Allows Orbit to infinitely loop through the slides
     * @option
